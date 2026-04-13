@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vtestbench
+Z0 !s110 1775790085
+!i10b 1
+!s100 Y>CUAh<J0izd6WAi:VDkB2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_8B4_lamDUlOcXBAcCDB50
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/asus/Downloads/FPGA_demo/demo1_xor
+w1775790068
+8C:/Users/asus/Downloads/FPGA_demo/demo1_xor/testbench.v
+FC:/Users/asus/Downloads/FPGA_demo/demo1_xor/testbench.v
+!i122 1
+L0 2 22
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1775790085.000000
+!s107 C:/Users/asus/Downloads/FPGA_demo/demo1_xor/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/asus/Downloads/FPGA_demo/demo1_xor/testbench.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vxor_gate
+R0
+!i10b 1
+!s100 6f^k<RAOZ;@DX_:6D;RH>3
+R1
+IVYFV<Km[0_4TDE@]4m3Zg1
+R2
+R3
+w1775788290
+8C:/Users/asus/Downloads/FPGA_demo/demo1_xor/xor_gate.v
+FC:/Users/asus/Downloads/FPGA_demo/demo1_xor/xor_gate.v
+!i122 2
+L0 13 17
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/asus/Downloads/FPGA_demo/demo1_xor/xor_gate.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/asus/Downloads/FPGA_demo/demo1_xor/xor_gate.v|
+!i113 1
+R6
+R7
