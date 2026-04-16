@@ -1,30 +1,22 @@
 /*===============================================
-					XOR-GATE
+						XOR-GATE
 =================================================
 Description:
-	This is an xor gate using gate-level modeling.
+	This is an xor gate using dataflow modeling.
 	
 Design Engineer:
 	Jeremy Lloyd L. Vallejera
 Date:
-	10 Apr 2026
+	16 Apr 2026
 -----------------------------------------------*/
-
 module xor_gate(Y,A,B);
-	//ports
+	// ports
 	input A;
 	input B;
 	output Y;
 	
-	//nets
-	wire w1,w2,w3,w4;
-	
-	//xor gate
-	or  u5(Y,w3,w4);
-	and u2(w3,w1,B);
-	not u1(w1,A);
-	not u3(w2,B);
-	and u4(w4,A,w2);
+	// xor gate
+	assign Y = (~A & B)+(A & ~B);
 	
 endmodule
 	

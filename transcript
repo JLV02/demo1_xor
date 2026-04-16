@@ -1,0 +1,14 @@
+# Compile of testbench.v was successful.
+# Compile of xor_gate.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+# Compile of xor_gate.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 10:24:57 on Apr 16,2026
+# Loading work.testbench
+# Loading work.xor_gate
+run
+# End time: 11:20:20 on Apr 16,2026, Elapsed time: 0:55:23
+# Errors: 0, Warnings: 3
